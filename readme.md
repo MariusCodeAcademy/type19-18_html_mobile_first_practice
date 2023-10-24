@@ -1,4 +1,4 @@
-# Steps to start git
+## Steps to start git
 
 1. `git init` - inicijuoti git versijavima
 2. `git add .` - pazymesim visus failus pridejimui
@@ -8,3 +8,8 @@
 
 1. https://html5up.net/spectral - darom
 2. https://html5up.net/twenty - navigacija
+
+## Praktika
+
+1. CAO
+2. pratesti sita puslapi https://html5up.net/spectral
