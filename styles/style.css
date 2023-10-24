@@ -122,7 +122,9 @@ h1 {
   }
 
   .sub-menu {
-    display: none;
+    /* display: none; */
+    top: -500px;
+    transition: top 0.3s;
   }
   .sub-menu {
     background-color: #fff;
@@ -130,17 +132,32 @@ h1 {
     /* padding: 10px; */
     position: absolute;
     min-width: 120px;
-    top: calc(100% + 25px);
+    /* top: calc(100% + 25px); */
   }
   .sub-link {
     padding: 0.4em 0.8em;
     display: block;
+
     border-bottom: 1px solid gray;
   }
   .has-children:hover + .sub-menu {
     display: block;
     display: flex;
     flex-direction: column;
+    top: calc(100% + 25px);
+  }
+
+  .has-children::before {
+    content: '\f078';
+    font-family: FontAwesome;
+    font-size: 14px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: inherit;
+    transition: transform 0.4s;
+  }
+  .has-children:hover::before {
+    transform: rotate(180deg);
   }
   .nav-list > li {
     position: relative;
