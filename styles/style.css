@@ -120,4 +120,29 @@ h1 {
     padding: 0.5em 1em;
     font-size: 18px;
   }
+
+  .sub-menu {
+    display: none;
+  }
+  .sub-menu {
+    background-color: #fff;
+    color: #222;
+    /* padding: 10px; */
+    position: absolute;
+    min-width: 120px;
+    top: calc(100% + 25px);
+  }
+  .sub-link {
+    padding: 0.4em 0.8em;
+    display: block;
+    border-bottom: 1px solid gray;
+  }
+  .has-children:hover + .sub-menu {
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-list > li {
+    position: relative;
+  }
 }
