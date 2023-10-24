@@ -15,18 +15,27 @@
   background-color: #f15540;
 }
 
+body {
+  /* kod devinam */
+  margin-bottom: 600px;
+}
+
 /* HEADER ================================== */
 
 header {
-  background-color: gray;
+  z-index: 10;
+  /* background-color: gray; */
+  position: fixed;
+  top: 10px;
+  left: 10px;
 }
 .main-nav {
   display: none;
 }
 
 .burger-menu-btn {
-  border: 1px solid rgba(255, 255, 255, 0.534);
-  background-color: rgba(255, 255, 255, 0.534);
+  border: 1px solid rgb(115 115 115 / 63%);
+  background-color: rgb(115 115 115 / 63%);
   font-size: 25px;
   color: white;
   padding: 0.3em 0.6em;
@@ -37,6 +46,8 @@ header {
   background-color: gray;
   background: url('/img/banner.jpg') no-repeat center;
   background-size: cover;
+  /* paralax scroll efektas */
+  background-attachment: fixed;
   height: 420px;
   color: white;
   display: flex;
