@@ -23,13 +23,15 @@ body {
 /* HEADER ================================== */
 
 header {
+  color: white;
   z-index: 10;
   /* background-color: gray; */
   position: fixed;
   top: 10px;
   left: 10px;
 }
-.main-nav {
+.main-nav,
+.logo {
   display: none;
 }
 
@@ -89,4 +91,33 @@ h1 {
 }
 .hero-text a {
   text-decoration: underline;
+}
+
+/* MEDIAS ==================== */
+
+@media screen and (min-width: 768px) {
+  .main-nav,
+  .logo {
+    display: block;
+  }
+  .burger-menu-btn {
+    display: none;
+  }
+  header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 28px 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+  }
+  .nav-link {
+    padding: 0.5em 1em;
+    font-size: 18px;
+  }
 }
