@@ -1,3 +1,18 @@
+/* common ================================== */
+.btn {
+  background-color: #ed4933;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: 1px solid #ed4933;
+  padding: 0.8em 2em;
+  letter-spacing: 2.64px;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+/* HEADER ================================== */
+
 header {
   background-color: gray;
 }
@@ -11,4 +26,22 @@ header {
   font-size: 25px;
   color: white;
   padding: 0.3em 0.6em;
+}
+
+/* HERO ================================== */
+.hero {
+  background-color: gray;
+  height: 420px;
+  color: white;
+}
+h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.hero-text {
+  font-size: 15px;
+  letter-spacing: 3.3px;
+}
+.hero-text a {
+  text-decoration: underline;
 }
