@@ -127,11 +127,15 @@ h1 {
   padding: 44px 44px;
   text-align: center;
 }
+.blog__image {
+  width: 100%;
+}
 .blog__title {
   font-size: 16px;
   letter-spacing: 4px;
   margin-bottom: 16px;
   line-height: 1.5;
+  text-transform: uppercase;
 }
 .blog__text {
   font-size: 15px;
@@ -149,6 +153,7 @@ h1 {
     display: none;
   }
   header {
+    background-color: rgba(128, 128, 128, 0.73);
     width: 100%;
     top: 0;
     left: 0;
@@ -206,5 +211,25 @@ h1 {
   }
   .nav-list > li {
     position: relative;
+  }
+  /* BLOGS ==================== */
+
+  .blog {
+    display: flex;
+  }
+  .blog.blog--reverse {
+    flex-direction: row-reverse;
+  }
+  .blog__image {
+    width: 45%;
+  }
+  .blog__text {
+    font-size: 16px;
+  }
+  .blog__title {
+    font-size: 24px;
+  }
+  .blog .content {
+    text-align: left;
   }
 }
