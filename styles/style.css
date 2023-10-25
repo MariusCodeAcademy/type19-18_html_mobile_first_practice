@@ -163,6 +163,8 @@ h1 {
   display: flex;
 }
 .card {
+  flex-shrink: 0;
+  width: 240px;
   display: grid;
   text-align: center;
   border: 1px solid #000;
@@ -175,6 +177,11 @@ h1 {
 }
 .card__title {
   margin-bottom: 0.5em;
+}
+.window {
+  /* background-color: #ffffff65; */
+  /* border: 3px dashed tomato; */
+  overflow: auto;
 }
 
 /* MEDIAS ==================== */
