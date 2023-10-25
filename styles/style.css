@@ -44,6 +44,13 @@ body {
   /* kod devinam */
   margin-bottom: 600px;
 }
+.title--section {
+  font-size: 22px;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
 
 /* HEADER ================================== */
 
@@ -140,6 +147,34 @@ h1 {
 .blog__text {
   font-size: 15px;
   line-height: 1.6;
+}
+
+/* Cards ==================== */
+.cards-section {
+  background-color: #505393;
+  color: white;
+  padding: 44px;
+}
+.subtitle {
+  text-align: center;
+  margin-bottom: 56px;
+}
+.cards-list {
+  display: flex;
+}
+.card {
+  display: grid;
+  text-align: center;
+  border: 1px solid #000;
+  padding: 20px;
+}
+.card__icon {
+  font-size: 26px;
+  color: #00ffcc;
+  margin-bottom: 1em;
+}
+.card__title {
+  margin-bottom: 0.5em;
 }
 
 /* MEDIAS ==================== */
