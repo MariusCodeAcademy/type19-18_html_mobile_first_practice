@@ -16,18 +16,29 @@
 }
 
 .burger {
+  width: 56px;
 }
 .burger .line {
   height: 3px;
   width: 25px;
-  background-color: #333;
+  background-color: #fff;
   display: block;
   margin: 5px 0;
   transition: all 0.5s;
   transform-origin: left;
 }
 .burger:hover .ln1 {
-  transform: rotate(45deg);
+  transform: rotate(36deg);
+  width: 28px;
+}
+
+.burger:hover .ln2 {
+  /* background-color: transparent; */
+  opacity: 0;
+}
+.burger:hover .ln3 {
+  transform: rotate(-36deg);
+  width: 28px;
 }
 body {
   /* kod devinam */
